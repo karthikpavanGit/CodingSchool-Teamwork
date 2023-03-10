@@ -4,6 +4,9 @@
 }.one {
     background-color: whitesmoke;
     height: 7vh;}
+    marquee{
+        border: 1px solid black;
+    }
     .one li {
         display: inline;
         padding: 20px;

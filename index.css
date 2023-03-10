@@ -10,12 +10,29 @@
     background-color: whitesmoke;
     height: 7vh;
 }
-.two {
-    background-color: whitesmoke; 
+marquee{
+    border: 1px solid black;
 }
-.two img {
+
+.two{
+    display: flex;
+}
+.two-one{
     width: 50%;
-  
+}
+.two-one img{
+    width: 100%;
+}
+.two-two{
+    width: 50%;
+    text-align: center;
+}
+.two-two h1{
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(151,0,3), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 100px;
 
 }
 .three {
